@@ -31,8 +31,8 @@ Citizen.CreateThread(function()
         SetRichPresence(string.format(" %s/%s - ID: %s", playerCount, maxPlayerSlots, playerId))
 
         -- Discord Status Buttons
-        SetDiscordRichPresenceAction(0, "🌐 Discord 🌐", "https://discord.gg/3R3WrjD2CC")
-        SetDiscordRichPresenceAction(1, "🌐 Connect 🌐", "https://cfx.re/join/3bopzo")
+        SetDiscordRichPresenceAction(0, "🌐 Discord 🌐", "https://discord.gg/1234")
+        SetDiscordRichPresenceAction(1, "🌐 Connect 🌐", "https://cfx.re/join/test")
 
         
         -- Update Every 1 minute (ignore Crash)
